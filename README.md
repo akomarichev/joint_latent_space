@@ -23,21 +23,21 @@ The architecture of our proposed GAE on point clouds is shown below:
     
   To train GAE model on *ShapeNet Core* dataset type the following command:
 
-        python main_ae_pc_adaptive.py --to_train=1 --log_dir=output/cyclegan/exp_ae_pc --config_filename=configs/exp_ae_pc.json
+        python main_ae_pc_adaptive.py --to_train=1 --log_dir=output/ae/exp_ae_pc --config_filename=configs/exp_ae_pc.json
 
   To evaluate a trained model run the following script:
 
-        python main_ae_pc_adaptive.py --to_train=0 --checkpoint_dir=output/cyclegan/exp_ae_pc/20220213-...... --log_dir=output/cyclegan/exp_ae_pc --config_filename=configs/exp_ae_pc.json
+        python main_ae_pc_adaptive.py --to_train=0 --checkpoint_dir=output/ae/exp_ae_pc/20220213-...... --log_dir=output/ae/exp_ae_pc --config_filename=configs/exp_ae_pc.json
 
 ### Autoencoder on images
     
   To train autoencoder on images on *ShapeNet Core* dataset type the following command:
 
-        python main_ae_img.py --to_train=1 --log_dir=output/cyclegan/exp_ae_img --config_filename=configs/exp_ae_img.json
+        python main_ae_img.py --to_train=1 --log_dir=output/ae/exp_ae_img --config_filename=configs/exp_ae_img.json
 
   To evaluate a trained model run the following script:
 
-        python main_ae_img.py --to_train=0 --checkpoint_dir=output/cyclegan/exp_ae_img/20220213-...... --log_dir=output/cyclegan/exp_ae_img --config_filename=configs/exp_ae_img.json
+        python main_ae_img.py --to_train=0 --checkpoint_dir=output/ae/exp_ae_img/20220213-...... --log_dir=output/ae/exp_ae_img --config_filename=configs/exp_ae_img.json
 
 ### Mixer and Joint Generative Model (Coming Soon!)
 
