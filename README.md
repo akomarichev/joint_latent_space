@@ -13,7 +13,7 @@ We provide the code of our models that was tested with Tensorflow 1.13.1, CUDA 1
 
 ### Data
 
-<a href="https://1drv.ms/u/s!ApbTjxa06z9CgQfKl99yUDHL_wHs">Download</a> our prepared *ShapeNet Core* dataset first. Point clouds are sampled from meshes with 10K points (XYZ + normals) per shape with its rendered image.
+<a href="https://waynestateprod-my.sharepoint.com/personal/fy7555_wayne_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Ffy7555%5Fwayne%5Fedu%2FDocuments%2FData%2FJointLatentSpace%2Fdata%2Ezip&parent=%2Fpersonal%2Ffy7555%5Fwayne%5Fedu%2FDocuments%2FData%2FJointLatentSpace&ga=1">Download</a> our prepared *ShapeNet Core* dataset first. Point clouds are sampled from meshes with 10K points (XYZ + normals) per shape with its rendered images.
 
 ### Geometry-Aware Autoencoder (GAE)
 
