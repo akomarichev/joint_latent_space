@@ -1,0 +1,8 @@
+{
+  "base_lr":0.001,
+  "max_step": 200,
+  "data_list_train": "Data/train_list.txt",
+  "data_list_test": "Data/test_list.txt",
+  "momentum": 0.9,
+  "decate_rate": 0.7
+}

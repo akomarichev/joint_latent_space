@@ -1,5 +1,5 @@
 ## Learning Geometry-Aware Joint Latent Space for Simultaneous Multimodal Shape Generation
-Created by <a href="https://github.com/artemkomarichev" target="_blank">Artem Komarichev</a>, <a href="http://www.cs.wayne.edu/zzhong/" target="_blank">Zichun Zhong</a>, <a href="http://www.cs.wayne.edu/~jinghua/" target="_blank">Jing Hua</a> from Department of Computer Science, Wayne State University.
+Created by <a href="https://github.com/artemkomarichev" target="_blank">Artem Komarichev</a>, <a href="http://www.cs.wayne.edu/~jinghua/" target="_blank">Jing Hua</a>, <a href="http://www.cs.wayne.edu/zzhong/" target="_blank">Zichun Zhong</a> from Department of Computer Science, Wayne State University.
 
 ![teaser image](https://github.com/artemkomarichev/joint_latent_space/blob/main/pics/teaser.png)
 
