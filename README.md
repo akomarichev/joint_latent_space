@@ -1,7 +1,7 @@
 ## Learning Geometry-Aware Joint Latent Space for Simultaneous Multimodal Shape Generation
 Created by <a href="https://github.com/artemkomarichev" target="_blank">Artem Komarichev</a>, <a href="http://www.cs.wayne.edu/zzhong/" target="_blank">Zichun Zhong</a>, <a href="http://www.cs.wayne.edu/~jinghua/" target="_blank">Jing Hua</a> from Department of Computer Science, Wayne State University.
 
-![teaser image](https://github.com/artemkomarichev/a-cnn/blob/master/pics/teaser.png)
+![teaser image](https://github.com/artemkomarichev/joint_latent_space/blob/main/pics/teaser.png)
 
 ### Introduction
 
@@ -17,7 +17,9 @@ We provide the code of our models that was tested with Tensorflow 1.13.1, CUDA 1
 
 ### Geometry-Aware Autoencoder (GAE)
 
-* Reconstruction task
+The architecture of our proposed GAE on point clouds is shown below:
+
+![gae image](https://github.com/artemkomarichev/joint_latent_space/blob/main/pics/gae.png)
     
   To train GAE model on *ShapeNet Core* dataset type the following command:
 
@@ -28,8 +30,6 @@ We provide the code of our models that was tested with Tensorflow 1.13.1, CUDA 1
         python main_ae_pc_adaptive.py --to_train=0 --checkpoint_dir=output/cyclegan/exp_ae_pc/20220213-...... --log_dir=output/cyclegan/exp_ae_pc --config_filename=configs/exp_ae_pc.json
 
 ### Autoencoder on images
-
-* Reconstruction task
     
   To train autoencoder on images on *ShapeNet Core* dataset type the following command:
 
